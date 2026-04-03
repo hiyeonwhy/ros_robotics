@@ -1,0 +1,5 @@
+<launch>
+  <!-- ARuco 인식 노드 -->
+  <node name="aruco_detector" pkg="aruco_docking" type="aruco_detector_node" output="screen" />
+</launch>
+
